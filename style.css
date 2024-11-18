@@ -1,18 +1,53 @@
-/* 
-Theme Name:ONEPIECE
-Author:CHAVDA KARTIK
-version:1.0.0
-Description:Helllo this is simple Theme
+/*
+Theme Name: BLEACH TYBW
+Author: Team devlooper's
+Description: This theam is created by team devlooper's for genral purpose mostly used for e-business.
+Requires at least: 7.4
+Requires PHP: 8.1
+Version: 1.0.1
+Text Domain:BLEACH
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio.
 */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+.header
+{
+    border:2px solid #ff0000;
+    padding:auto;
+    border-radius: 5px;
+    text-align: center;
+    color: blueviolet;
+    background-color: bisque;
+}
+.header a{
+    text-decoration: none;
+    color: aqua;
+    font-size: x-large;
+    text-shadow: 0 0 3px cyan;
+}
+.header a:hover{
+    color: blueviolet;
+    text-shadow: 0 0 3px blueviolet;
+}
+.container
+{
+    border:2px solid #ff0000;
+    padding:265px;
+    border-radius: 5px;
+}
+.footer
+{
+    border:2px solid #ff0000;
+    padding:35px;
+    border-radius: 5px;
+    background-color: bisque;
 }
 
-body{
-    color: red;
-    background-color: navy;
+.footer a{
+    text-decoration: none;
+    color: aqua;
+    font-size: x-large;
+    text-shadow: 0 0 3px cyan;
+}
+.footer a:hover{
+    color: blueviolet;
+    text-shadow: 0 0 3px blueviolet;
 }
