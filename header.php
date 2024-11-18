@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
 </head>
-<body>
-    <div class="header">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CANTACT</a></li>
-        </ul>
-    </div>
+<body onload="disp()">
+<header>
+    <?php wp_head(); ?>
+</header>
 </body>
 </html>
